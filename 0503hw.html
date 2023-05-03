@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<style type="text/css">
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: #7EAAC0;
+    -webkit-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1:hover {
+    background-color: #EDC4C4;
+    font-size: 50px;
+    transform: scale(1.2, 1.2);
+    width: 200px;
+    height: 200px;
+}
+.box2 {
+    width: 200px;
+    height: 200px;
+    background-color: #D5D397;
+    -webkit-transition: all 500ms ease-in-out 0ms;
+    -o-transition: all 500ms ease-in-out 0ms;
+    transition: all 500ms ease-in-out 0ms;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.box2:active {
+    background-color: #E4C0EB;
+    transform: translate(50px, 50px);
+    font-size: 40px;
+}
+.box3 {
+    width: 200px;
+    height: 200px;
+    background-color: #E0B1C5;
+    -webkit-transition: all 500ms ease 0s;
+    -o-transition: all 500ms ease 0s;
+    transition: all 500ms ease 0s;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box3:hover {
+    font-size: x-large;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(90deg);
+}
+body {
+    margin-left: 50%;
+    margin-right: 50%;
+}
+</style>
+</head>
+
+<body >
+<div class="box1">box1</div>
+<div class="box2">box2</div>
+<div class="box3">box3</div>
+</body>
+</html>
